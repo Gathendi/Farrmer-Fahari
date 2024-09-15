@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+p{
+    /* color: #fff; */
+    font: size 14px;
+}
+body{
+    font-family:Kumbh Sans;
+}
+
+/* Navigation Bar */
+.nav_bar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1, 1, 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 139, 87);
+}
+.links{
+     height: 40px;
+     /* background-color: rgb(46, 139, 87) ; */
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     font-size: 24px;
+     font-weight: bold;
+     color: rgb(46, 139, 87);
+   
+
+
+}
+.logo{
+    display: flex;
+    max-width: 200px;
+}
+.buttons{
+    display: flex;
+    gap: 07px;
+}
+
+.sign_in, .sign_up{
+    background-color:rgb(46, 139, 87) ;
+    color:#fff ;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;   
+    font-size: 14px;
+    border: none;
+
+}
+
+
+/* Body Section */
+.hero{
+position: relative;
+    background-image: url(https://images.pexels.com/photos/14633507/pexels-photo-14633507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+    height: 500px;
+    width: auto;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  
+
+    
+}
+.hero ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.hero_heading{
+    font-size: 3.5rem;
+    color:#fff;
+}
+.main_heading{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_paragraph{
+
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+
+
+}
+ /* Our Services */
+.our_services{
+    /* margin-top: 30px; */
+    background-color: rgb(240, 244, 247);
+    height: auto;
+    /* max-width: ; */
+    display: flex;
+    justify-content: center;
+
+
+}
+/* Card 1 */
+.card_img{
+    margin-top: 30px;
+    height: 200px;
+ background-image: url(https://images.pexels.com/photos/7690086/pexels-photo-7690086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+ width: 400px;
+ background-size: cover;
+ border-radius: 30px 30px 0px 0px;
+}
+
+.card-1{
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 400px;
+margin: 0px 10px 30px 0px;
+
+}
+
+ /* Responsive Settings */
